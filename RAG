@@ -6,7 +6,7 @@ from langchain.prompts import ChatPromptTemplate
 
 # 4. Set up OpenAI API key
 import os
-os.environ["OPENAI_API_KEY"] = " "  # Replace with your real key
+os.environ["OPENAI_API_KEY"] = ""  # Replace with your real key
 
 SYSTEM = "You are a concise, audience-aware content generator. Follow the formatting rules per content type."
 
