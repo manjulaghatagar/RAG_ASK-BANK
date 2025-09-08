@@ -1,0 +1,9 @@
+langchain
+langchain-openai
+langchain_community
+chromadb
+langchain_chroma
+gradio
+langchain_core.documents
+langchain_core.documents 
+streamlit
