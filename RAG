@@ -1,4 +1,4 @@
-
+!pip install -qU langchain langchain-openai gradio
 
 import os, gradio as gr
 from langchain_openai import ChatOpenAI
@@ -81,3 +81,4 @@ with gr.Blocks() as demo:
     btn.click(generate_content, [content_type, topic, tone, length, cta, keywords, audience], out)
 
 demo.launch(share=True, debug = True)
+
